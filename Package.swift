@@ -6,13 +6,13 @@ import PackageDescription
 let package = Package(
     name: "SwiftPackageLinter",
     
-    platforms: [                    // ✅ REMOVED the dot
+    platforms: [                    
         .macOS(.v10_15),
         .iOS(.v13)
     ],
     
     // 3️⃣ PRODUCTS - What this package provides to users
-    products: [                     // ✅ Added space after colon
+    products: [                     
         .executable(
             name: "swift-package-linter",
             targets: ["SwiftPackageLinter"]
@@ -28,7 +28,7 @@ let package = Package(
     ],
 
     // 5️⃣ TARGETS - The basic building blocks of a package
-    targets: [                      // ✅ Added space after colon
+    targets: [                      
         .executableTarget(
             name: "SwiftPackageLinter",
             dependencies: [
