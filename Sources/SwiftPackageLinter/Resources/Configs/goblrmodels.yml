@@ -1,0 +1,3 @@
+line_length: 150        # Models can be longer
+force_unwrapping: warning  # More lenient
+type_body_length: 400   # Models are bigger
